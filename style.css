@@ -23,16 +23,13 @@ article {
 }
 /*Top navigation menu*/
 nav {
-  /*display: flex;*/
   background-color: teal;
-  /*padding: 1% 0;*/
 }
 
 nav ul {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 2;
-  justify-content: space-evenly;
+  flex-grow: 1;
 }
 
 nav li {
@@ -45,6 +42,14 @@ li a {
   font-size: 20px;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
+}
+
+.inpage {
+  flex-grow: 1;
+}
+#mer {
+  flex-grow: 3;
 }
 
 nav a:hover {
