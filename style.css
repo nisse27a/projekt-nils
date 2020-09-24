@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+
+article {
+  padding: 3%;
+}
+
+#background {
+  padding: 0;
+  margin: 0;
+  background-clip: content-box;
+  box-shadow: inset 0 0 0 10px lightgrey;
+}
+/*Top navigation menu*/
+nav {
+  /*display: flex;*/
+  background-color: teal;
+  /*padding: 1% 0;*/
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-evenly;
+}
+
+nav li {
+  list-style: none;
+}
+
+li a {
+  display: block;
+  color: navy;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: orange;
+}
+
+.stanna {
+  position: sticky;
+  top: 0px;
+}
+
+/*General text formatting*/
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1% 2%;
+}
+
+.subflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#gymnastik1 {
+  flex-basis: 85%;
+}
+
+h1 + p,
+h3 + p,
+p + p {
+  margin-top: 10px;
+}
+
+h3 {
+  line-height: 2;
+  color: rgb(129, 129, 129);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Media formatting*/
+#fullrudy {
+  flex-basis: 12%;
+  order: -1;
+}
+#skollogga {
+  float: right;
+}
+
+#boisen {
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  width: 50%;
+}
