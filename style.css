@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-  background-color: teal;
+  background-color: #080a52;
 }
 
 nav ul {
@@ -35,8 +35,8 @@ nav ul li {
 
 nav ul li a {
   display: block;
-  color: navy;
-  font-size: 20px;
+  color: #eb2188;
+  font-size: 22px;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
@@ -57,7 +57,16 @@ nav ul li a:hover {
 #mer {
   flex-grow: 2;
 }
+/*Footer*/
 
+footer {
+  background-color: darkslategrey;
+}
+footer p {
+  line-height: 4;
+  text-align: center;
+  color: whitesmoke;
+}
 /*General text formatting*/
 
 article {
