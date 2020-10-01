@@ -81,17 +81,24 @@ article {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 #gymnastik {
   flex-basis: 85%;
 }
 
+#högstadiet {
+  flex-basis: 90%;
+}
+
 h1 + p,
 p + h3,
-p + p {
+p + p,
+img + p,
+div + p {
   margin-top: 2%;
 }
 
-h3 {
+h2 {
   line-height: 2;
   color: rgb(129, 129, 129);
 }
@@ -101,8 +108,11 @@ h3 {
   flex-basis: 12%;
   order: 0;
 }
+
 #skollogga {
-  float: right;
+  flex-basis: 10%;
+  width: 10%;
+  height: 10%;
 }
 
 #test2 {
