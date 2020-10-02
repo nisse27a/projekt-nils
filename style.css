@@ -9,7 +9,7 @@ body {
   flex-direction: column;
 }
 
-#background {
+.background {
   box-shadow: inset 0 0 0 5px lightgrey;
 }
 /*Top navigation menu*/
@@ -54,7 +54,7 @@ nav ul li a:hover {
   flex-grow: 4;
 }
 
-#mer {
+#sociala-medier {
   flex-grow: 2;
 }
 /*Footer*/
@@ -67,9 +67,16 @@ footer p {
   text-align: center;
   color: whitesmoke;
 }
-/*General text formatting*/
+/*Text formatting*/
 
 article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1% 2%;
+}
+
+section {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -88,6 +95,11 @@ article {
 
 #högstadiet {
   flex-basis: 90%;
+}
+
+#titel {
+  text-align: center;
+  margin-top: 2%;
 }
 
 h1 + p,
